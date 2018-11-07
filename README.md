@@ -1,0 +1,1 @@
+Ceci est une projet individuel réalisé dans le cadre d'une formation de développeur web et mobile.
