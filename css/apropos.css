@@ -75,17 +75,22 @@
   height: 20px;
   background-color: #9baed3;
 }
-#list-produits{
-  padding-top: 50px;
-}
-#list-produits img{
-  width: 100%;
+.apropos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 5%;
 }
-.text-produits{
-  padding-left: 5%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+#paragraphe{
+  margin: 5%;
+}
+.imgapropos{
+display: flex;
+justify-content: center;
+}
+.imgapropos img{
+  width: 50%;
+  height: 50%;
 }
 #list{
   list-style: none;
