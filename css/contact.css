@@ -79,6 +79,37 @@
   text-align: center;
   padding: 5%;
 }
+.titleForm h3{
+  text-align: center;
+  padding-top: 5%;
+}
+.formulaire{
+  background-color: #a7d3ee;
+}
+form{
+  padding: 5%;
+}
+form input{
+  border-top: 0 ;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid grey;
+  margin-bottom:2%;
+  width: 40%;
+  background-color: #a7d3ee;
+}
+textarea{
+  border-top: 0 ;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid grey;
+  margin-bottom:2%;
+  background-color: #a7d3ee;
+}
+iframe{
+  width: 100%;
+}
+
 #list{
   list-style: none;
   display: flex;
