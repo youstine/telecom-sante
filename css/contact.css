@@ -17,6 +17,7 @@
   padding: 10px;
   color: #383838;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 #menu a:hover{
   border-top: solid 3px #3653a1
@@ -34,9 +35,12 @@
 }
 .text-banner h1{
   color: #375ea7;
+  font-family: 'Roboto', sans-serif;
+
 }
 .text-banner h4{
   color: #515151;
+  font-family: athelas;
 }
 #reseaux{
   position: fixed;
@@ -108,6 +112,20 @@ textarea{
 }
 iframe{
   width: 100%;
+  position: relative;
+  z-index: 200;
+}
+.mapContact{
+  position: relative;
+}
+.contact{
+  position: absolute;
+  z-index: 300;
+  top: 20%;
+  left: 5%;
+  font-size: 1.5em;
+  background-color: rgba(167, 211, 238, 0.5);
+  padding: 5%; 
 }
 
 #list{
