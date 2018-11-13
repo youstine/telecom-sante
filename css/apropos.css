@@ -1,5 +1,5 @@
 .body{
-  padding: 20px;
+  width: 100%;
 }
 #logo{
   max-width: 100px;
@@ -21,6 +21,11 @@
 #menu a:hover{
   border-top: solid 3px #3653a1
 }
+
+.pos-f-t{
+  display: none;
+}
+
 #banner{
   height: 500px;
   background-image: url(../ressources/img/banner.jpg);
@@ -29,11 +34,12 @@
 }
 .text-banner{
   height: 500px;
-  padding-top: 300px;
+  padding-top: 15%;
   padding-left: 5%;
 }
 .text-banner h1{
   color: #375ea7;
+  font-family: 'Roboto', sans-serif;
 }
 .text-banner h4{
   color: #515151;
@@ -42,11 +48,10 @@
   position: fixed;
   z-index: 100;
   width: 50px;
-  height: 200px;
   background-color:grey;
   top:200px;
-  border-radius: 5px 0 0 5px ;
-  right: 149px;
+  border-radius: 5px 5px 5px 5px ;
+  right:0;
 }
 .icon ul{
   height: 100%;
@@ -92,14 +97,55 @@ justify-content: center;
   width: 50%;
   height: 50%;
 }
+footer{
+  width: 100%;
+}
 #list{
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-top: 2%; 
+  flex-wrap: wrap;
+  padding-top: 5%; 
 }
 #list li{
   padding: 10px;
   font-size: 1.2em;
+}
+@media (max-width: 640px) {
+    #banner{
+    height: 250px;
+  }
+  .text-banner{
+    height: 250px;
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  .fa-bars{
+    color: grey !important;
+  }
+  button:focus{
+    outline: none;
+  }
+  .pos-f-t{
+    display: inline-block !important;
+    width: 100%;
+  }
+  #menu{
+    display: none;
+  }
+  #toggle-menu li,a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+  }
+  #toggle-menu li,a:hover{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+  }
+    #toggle-menu{
+    padding: 0;
+    margin: 0;
+  }
 }
