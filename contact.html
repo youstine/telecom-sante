@@ -25,6 +25,23 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <ul id="toggle-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="produits.html">Produits</a></li>
+              <li><a href="apropos.html">Télécom Santé</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
       <div class="row">
         <div class="col-sm-12">
           <div id="banner">
@@ -35,9 +52,9 @@
           </div>
         </div>
       </div>
-      <div class="row" id="reseaux">
-        <div class="col-sm-3">
-          <div id="greysquare">
+      <div class="container-fluid">
+        <div class="row" id="reseaux">
+          <div class="col-sm-12" id="greysquare">
             <div class="icon">
             <ul>
               <li><i class="fab fa-facebook-square"></i></li>
@@ -73,7 +90,7 @@
           <input type="text" name="sujet"><br>
           <label for="messages">Message</label><br>
           <textarea name="message"
-             rows="5" cols="100%">
+             rows="5" cols="35%">
           </textarea><br>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -96,18 +113,22 @@
       </div>
       <footer class="container">
         <div class="row">
-          <ul id="list">
-            <li>Newsletter</li>
-            <li>Publicité</li>
-            <li>Relation presse</li>
-            <li>Mention Légales</li>
-            <li>Contact</li>
-          </ul>
+          <div class="col-sm-12">
+            <ul id="list">
+              <li>Newsletter</li>
+              <li>Publicité</li>
+              <li>Relation presse</li>
+              <li>Mention Légales</li>
+              <li>Contact</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <p>Télécom Santé est une marque déposée depuis 2011</p>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Télécom Santé est une marque déposée depuis 2011</p>
+          </div>
         </div>
-      </footer>
+      </footer> 
     </div>
 
     <!-- Optional JavaScript -->
