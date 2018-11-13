@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Playfair+Display|Roboto:300,400,500,700,900" rel="stylesheet">
     <title>Télécom Santé </title>
   </head>
   <body>
@@ -24,6 +25,23 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <ul id="toggle-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="produits.html">Produits</a></li>
+              <li><a href="apropos.html">Télécom Santé</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
       <div class="row">
         <div class="col-sm-12">
           <div id="banner">
@@ -34,17 +52,17 @@
           </div>
         </div>
       </div>
-      <div class="row" id="reseaux">
-        <div class="col-sm-3">
-          <div id="greysquare">
+      <div class="container-fluid">
+        <div class="row" id="reseaux">
+          <div class="col-sm-12" id="greysquare">
             <div class="icon">
-            <ul>
-              <li><i class="fab fa-facebook-square"></i></li>
-              <li><i class="fab fa-linkedin"></i></li>
-              <li><i class="fab fa-twitter"></i></li>
-            </ul>
+              <ul>
+                <li><i class="fab fa-facebook-square"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+              </ul>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
       <div class="divisor">
@@ -105,18 +123,22 @@
       </div>
       <footer class="container">
         <div class="row">
-          <ul id="list">
-            <li>Newsletter</li>
-            <li>Publicité</li>
-            <li>Relation presse</li>
-            <li>Mention Légales</li>
-            <li>Contact</li>
-          </ul>
+          <div class="col-sm-12">
+            <ul id="list">
+              <li>Newsletter</li>
+              <li>Publicité</li>
+              <li>Relation presse</li>
+              <li>Mention Légales</li>
+              <li>Contact</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <p>Télécom Santé est une marque déposée depuis 2011</p>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Télécom Santé est une marque déposée depuis 2011</p>
+          </div>
         </div>
-      </footer>
+      </footer> 
     </div>
 
     <!-- Optional JavaScript -->
