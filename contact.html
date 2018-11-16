@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,14 +7,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito|Playfair+Display|Roboto:300,400,500,700,900" rel="stylesheet">
     <title>Télécom Santé </title>
   </head>
   <body>
     <div class="body container">
-      <nav class="navbar navbar-light bg-light sticky-top">
+      <nav class="navbar navbar-light bg-light sticky-top roboto-medium">
         <a class="navbar-brand" href="#">
           <img src="ressources/img/logo.jpeg" id="logo" class="d-inline-block align-top" alt="Logo Télécom Santé">
         </a>
@@ -46,25 +46,23 @@
         <div class="col-sm-12">
           <div id="banner">
             <div class="text-banner">
-            <h1>L'hopital digital de demain</h1>
-            <h4>Au service de vos collaborateur<br>pour l’optimisation du  confort de vos patients</h4>
+            <h1 class="arial-bold">L'hopital digital de demain</h1>
+            <h4 class="athelas-regular">Au service de vos collaborateur<br>pour l’optimisation du  confort de vos patients</h4>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid">
-        <div class="row" id="reseaux">
-          <div class="col-sm-12" id="greysquare">
+      <div id="reseaux">
+          <div id="greysquare">
             <div class="icon">
-            <ul>
-              <li><i class="fab fa-facebook-square"></i></li>
-              <li><i class="fab fa-linkedin"></i></li>
-              <li><i class="fab fa-twitter"></i></li>
-            </ul>
+              <ul>
+                <li><i class="fab fa-facebook-square"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+              </ul>
             </div>
-          </div>
+          </div> 
         </div>
-      </div>
       <div class="divisor">
       </div>
       <div class="blockInformation">
@@ -79,18 +77,17 @@
       </div>
       <div class="formulaire">
         <div class="titleForm">
-          <h3>Formulaire de contact</h3>
+          <h2>Formulaire de contact</h2>
         </div>
         <form>
           <label for="Nom">Nom*</label><br>
-          <input type="text" name="Nom"/><br>
+          <input type="text" id="Nom" name="Nom"/><br>
           <label for="email">E-mail*</label><br>
-          <input type="email" name="email"><br>
+          <input type="email" id="email" name="email"><br>
           <label for="sujet">Sujet*</label><br>
-          <input type="text" name="sujet"><br>
+          <input type="text" id="sujet" name="sujet"><br>
           <label for="messages">Message</label><br>
-          <textarea name="message"
-             rows="5" cols="35%">
+          <textarea name="message" rows="5" id="messages">
           </textarea><br>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -99,7 +96,7 @@
       </div>
       <div class="mapContact">
         <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.862240749187!2d-1.6254376848328622!3d48.132179979222926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edeb9954ae3ef%3A0x9ca18f5c9c9f6f0f!2s8+Square+du+Ch%C3%AAne+Germain%2C+35510+Cesson-S%C3%A9vign%C3%A9!5e0!3m2!1sfr!2sfr!4v1541967609692" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.862240749187!2d-1.6254376848328622!3d48.132179979222926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edeb9954ae3ef%3A0x9ca18f5c9c9f6f0f!2s8+Square+du+Ch%C3%AAne+Germain%2C+35510+Cesson-S%C3%A9vign%C3%A9!5e0!3m2!1sfr!2sfr!4v1541967609692" allowfullscreen></iframe>
         </div>
         <div class="contact">
           <p>Contact<br>
@@ -113,7 +110,7 @@
       </div>
       <footer class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-12 roboto-bold">
             <ul id="list">
               <li>Newsletter</li>
               <li>Publicité</li>
